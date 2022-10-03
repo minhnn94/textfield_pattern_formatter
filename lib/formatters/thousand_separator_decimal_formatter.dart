@@ -2,13 +2,13 @@ import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:textfield_pattern_formatter/extensions/strings_extension.dart';
 
-class CommaTextInputFormatter extends TextInputFormatter {
+class ThousandSeparatorDecimalFormatter extends TextInputFormatter {
   final formatter = NumberFormat(
     '#,###.##',
   );
   final int decimalDigits;
 
-  CommaTextInputFormatter({this.decimalDigits = 2});
+  ThousandSeparatorDecimalFormatter({this.decimalDigits = 2});
   @override
   TextEditingValue formatEditUpdate(
       TextEditingValue oldValue, TextEditingValue newValue) {
