@@ -1,0 +1,3 @@
+library textfield_pattern_formatter;
+
+export 'package:textfield_pattern_formatter/formatters/thousand_separator_decimal_formatter.dart';
