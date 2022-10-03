@@ -1,31 +1,28 @@
-<!-- 
-This is Package useful for developer when working with TextField.
-The Pilot version I submit only ThousandSeparatorDecimal for kinds of TextField need to have format
-money.
--->
+
 
 
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This Package format textinput when you want to add Pattern format money in Device.
+A few devices have comma instead of dot. But we are fixed it for you.
 
 ## Getting started
+flutter pub add textfield_pattern_formatter
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
 
-```dart
-const like = 'sample';
-```
+Column(
+mainAxisAlignment: MainAxisAlignment.center,
+children: <Widget>[
+TextField(
+inputFormatters: [ThousandSeparatorDecimalFormatter()],
+)
+],
+),
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+You can also use this repo as a template for creating Dart packages, just clone the repo and start hacking :)
