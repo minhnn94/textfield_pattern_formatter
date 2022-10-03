@@ -11,9 +11,9 @@ A few devices have comma instead of dot. But we are fixed it for you.
 flutter pub add textfield_pattern_formatter
 
 
-## Usage
+## How to use
 
-
+```dart
 Column(
 mainAxisAlignment: MainAxisAlignment.center,
 children: <Widget>[
@@ -22,6 +22,7 @@ inputFormatters: [ThousandSeparatorDecimalFormatter()],
 )
 ],
 ),
+```
 
 ## Additional information
 
