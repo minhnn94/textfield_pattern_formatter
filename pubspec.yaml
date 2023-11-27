@@ -1,6 +1,6 @@
 name: textfield_pattern_formatter
 description: A Project for support the issues about Input in Flutter.
-version: 0.0.2
+version: 0.1.0
 repository:
   "https://github.com/minhnn94/textfield_pattern_formatter"
 
@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.17.0
+  intl: ^0.18.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
